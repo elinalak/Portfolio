@@ -1,11 +1,27 @@
+:root {
+  --main-font: "Staatliches", cursive;
+  --main-color: pink;
+}
+
 h1 {
-  font-family: "Staatliches", cursive;
+  font-family: var(--main-font);
   font-size: 120px;
   font-weight: 500;
   font-style: medium;
 }
 body {
-  background-color: pink;
+  background-color: var(--main-color);
 }
-/* font-family: 'Fascinate', cursive;
-font-family: 'Staatliches', cursive; */
+.hero a {
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 30px;
+  max-width: 120px;
+  color: var(--main-color);
+}
+
+.hero p {
+  font-family: var(--main-font);
+}
