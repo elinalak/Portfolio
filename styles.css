@@ -31,3 +31,17 @@ body {
 .hero p {
   font-family: var(--main-font);
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 80px;
+  }
+  p {
+    padding: 3px;
+    justify-content: space-around;
+    font-size: 13px;
+  }
+  img {
+    max-width: 100px;
+  }
+}
