@@ -9,6 +9,12 @@ h1 {
   font-weight: 500;
   font-style: medium;
 }
+
+h2 {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-style: medium;
+}
 body {
   background-color: var(--main-color);
 }
