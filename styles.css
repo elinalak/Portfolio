@@ -1,6 +1,6 @@
 :root {
   --main-font: "Staatliches", cursive;
-  --main-color: pink;
+  --main-color: lightpink;
 }
 
 h1 {
@@ -54,15 +54,11 @@ body {
   hero {
     display: flex;
   }
-
-  .hero img {
-    border-radius: 70px;
-  }
 }
 
 .module {
   color: white;
   border-width: 6px;
   border-style: solid;
-  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+  border-image: linear-gradient(to top, grey, rgba(0, 0, 0, 0)) 1 100%;
 }
