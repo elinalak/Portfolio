@@ -20,6 +20,10 @@ body {
   background-color: var(--main-color);
 }
 
+.body {
+  background-color: var(--main-color);
+}
+
 .hero {
   max-width: 1000px;
   display: block;
@@ -50,7 +54,7 @@ body {
   border: 4px rebeccapurple;
   padding: 15px;
   max-width: 900px;
-  border: dashed 2px purple;
+  border: dashed 2px rgb(234, 206, 234);
   box-shadow: 1px 5px 8px rgb(117, 5, 117);
   background-color: #fff;
 }
@@ -58,9 +62,17 @@ body {
   font-size: 18px;
 }
 
+.social {
+  margin-top: 40px;
+  border: 3px rgb(172, 80, 97) double;
+  max-width: 900px;
+  padding: 25px 40px;
+  box-shadow: #fff 3px 3px 5px 6px;
+}
+
 .main-contacts {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 120px;
 }
 @media (max-width: 900px) {
   h1 {
