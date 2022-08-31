@@ -15,6 +15,7 @@ h2 {
   font-weight: 500;
   font-style: medium;
 }
+
 body {
   background-color: var(--main-color);
 }
@@ -57,6 +58,10 @@ body {
   font-size: 18px;
 }
 
+.main-contacts {
+  text-align: center;
+  margin-top: 50px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 80px;
