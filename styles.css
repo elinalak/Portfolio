@@ -51,23 +51,38 @@ body {
 .about-container {
   display: block;
   margin: 30px auto;
-  border: 4px rebeccapurple;
   padding: 15px;
   max-width: 900px;
-  border: dashed 2px rgb(234, 206, 234);
-  box-shadow: 1px 5px 8px rgb(117, 5, 117);
+  border: solid 2px rgb(116, 112, 116);
+  box-shadow: 1px 4px 5px 3px rgb(116, 112, 116);
   background-color: #fff;
+  border-radius: 4%;
 }
 .about-container p {
   font-size: 18px;
 }
 
+.contacts {
+  font-size: 80px;
+}
+
 .social {
   margin-top: 40px;
-  border: 3px rgb(172, 80, 97) double;
+  border: 3px pink double;
+  border-radius: 5%;
   max-width: 900px;
   padding: 25px 40px;
   box-shadow: #fff 3px 3px 5px 6px;
+}
+
+.my-github {
+  max-width: 35px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.my-github:hover {
+  background-color: var(--main-color);
 }
 
 .main-contacts {
@@ -91,6 +106,9 @@ body {
   }
   .about-container p {
     font-size: 14px;
+  }
+  .contacts {
+    font-size: 32px;
   }
 }
 
