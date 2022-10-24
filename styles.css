@@ -68,11 +68,11 @@ body {
 
 .social {
   margin-top: 40px;
-  border: 3px pink double;
-  border-radius: 5%;
-  max-width: 900px;
+  border: 1px gold solid;
+  border-radius: 25px 75px 10px 60px;
+  max-width: 500px;
   padding: 25px 40px;
-  box-shadow: #fff 3px 3px 5px 6px;
+  background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
 }
 
 .my-github {
@@ -113,8 +113,14 @@ body {
 }
 
 .module {
-  color: white;
   border-width: 6px;
-  border-style: solid;
-  border-image: linear-gradient(to top, grey, rgba(0, 0, 0, 0)) 1 100%;
+  border-style: 1px grey solid;
+
+  padding: 8px;
+}
+
+.contact {
+  display: block;
+  margin: 0 auto;
+  width: 220px;
 }
